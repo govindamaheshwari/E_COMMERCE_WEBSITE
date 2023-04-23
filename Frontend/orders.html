@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./orders.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="./index.html"> HOME</a></li>
+                <li><a href="./store.html"> STORE</a></li>
+                <li><a href="./about.html"> ABOUT</a></li>
+                <li><a href="./cart.html"> CART</a></li>
+                <li><a href="./addProduct.html">AddProduct</a></li>
+                <li><a href="./admin.html">ADMIN</a></li>
+                <li><a href="#">ORDERS</a></li>
+            </ul>
+        </nav>
+        <h1>The Generics</h1>
+        
+    </header>
+    <section id="cart">
+        <h2>ORDERS</h2>
+        <div class="cart-row cart-header">
+            <span class="cart-quantity cart-column">ORDER ID</span>
+            <span class="cart-item cart-column">ITEM</span>
+            <span class="cart-price cart-column">PRICE</span>
+            <span class="cart-quantity cart-column">QUANTITY</span>
+           
+        </div>
+        <div class="cart-items" id="cart-items">
+           
+        </div>
+        <!-- <div class="cart-total">
+            <span class="total-title">TOTAL</span>
+            $<span id="total-value">0</span>
+        </div> -->
+        <!-- <button class="purchase-btn" id="purchase-btn">Buy Now</button> -->
+
+    </section>
+<!--     
+    <section id="container" class="popup-container">
+        
+        <div class="popup" id="popup">
+            <h1>Your Orders</h1>
+            <button id ="purchase-btn-close">→</button>
+            <div class="order-row order-header">
+                <span class="order-item order-column">ITEM</span>
+                <span class="order-price order-column">PRICE</span>
+                <span class="order-quantity order-column">QUANTITY</span>
+            </div>
+            <div class="order-items" id="order-items">
+           
+            </div>
+             <div class="order-total">
+                <span class="total-title">TOTAL</span>
+                $<span id="total-order-value">0</span>
+            </div>
+           <button class="order-btn" id="order-btn">Order Now</button>
+           <div class="notification" id="notification">
+
+           </div>
+        </div>
+    </section> -->
+
+
+<!--
+    <section id="container" class="popup-container">
+        <div class="popup">
+            <button id ="purchase-btn-close">x</button>
+            <h1>Your Orders</h1>
+        <div class="order-items">
+
+        </div>
+        </div>    
+    </section>
+-->
+    <footer id="main-footer">
+        <div id="footer-title">
+            <h1>The Generics</h1>
+        </div>
+        
+        <div id="footer-icons">
+            <ul>
+                <li><a href="https://youtube.com/"><img src="./images/youtube.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a></li>
+                <li><a href="https://twitter.com"><img src="./images/twitter.png" alt=""></a></li>
+            </ul>
+        </div>
+        
+    </footer>
+<script src="orders.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+header .latest-product{
+    display: block;
+    border:1px solid #56ccf2;
+    padding: 15px 30px;
+    background: inherit;
+    font-size: 23px;
+    font-weight: 200;
+    margin: 10px auto;
+    cursor:pointer;
+    color: white;
+}
+header .add-cart-button{
+    display: block;
+    border:2px solid #56ccf2;
+    border-radius: 50%;
+    padding: 20px;
+    background: inherit;
+    font-size: 23px;
+    font-weight: 200;
+    margin: 10px auto;
+    cursor:pointer;
+    color: white;
+}
+#tours .tour-item{
+display:flex;
+border-bottom: 1px solid black;
+padding:10px;
+}
+#tours .tour-item .tour-date{
+    width: 12%;
+}
+#tours .tour-item .tour-place{
+    width: 25%;
+}
+#tours .tour-item .tour-spef-place{
+    width: 53%;
+}
+#tours .tour-item .buy-tour-ticket{
+    width: 20%;
+    color: white;
+    background-color: #56ccf2;
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:700 ;
+}
+section h2{
+    font-family:"Metal Mania";
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
