@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce-website",
+  "version": "1.0.0",
+  "description": "e-commerce-website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Govinda Maheshwari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.25.7"
+  }
+}
